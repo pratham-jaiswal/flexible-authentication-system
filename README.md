@@ -104,7 +104,4 @@ The server provides the following API endpoints for user registration, login, me
 The API endpoints are protected using JWT authentication, meaning the user must be logged in to access the `/api/data` endpoint.
 
 ## Demo
-<video controls>
-  <source src="./Flex-Auth_App_PrathamJaiswal.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Demo Video](https://drive.google.com/file/d/13WdzJ-0qgAQBRygRnk6-cHCWUsCm2zXQ/view?usp=sharing)
