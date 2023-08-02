@@ -104,4 +104,7 @@ The server provides the following API endpoints for user registration, login, me
 The API endpoints are protected using JWT authentication, meaning the user must be logged in to access the `/api/data` endpoint.
 
 ## Demo
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/12c647ae25a642f4a921877a345bd44e?sid=32485b42-1ff6-49d2-9c92-c92c42ed7dc5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<video controls>
+  <source src="./Flex-Auth_App_PrathamJaiswal.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
