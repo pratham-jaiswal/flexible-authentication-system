@@ -95,7 +95,7 @@ export default function Register({ isValid }) {
               <input type="password" placeholder="Password@123" name="password" value={password} onChange={handlePasswordChange} onFocus={() => setPasswordInputFocused(true)} />
               { passwordInputFocused && <PasswordValidation password={password} /> }
             </div>
-            <button className="dark-btn" type="submit" disabled={!isRegisterFormValid()}>Login</button>
+            <button className="dark-btn" type="submit" disabled={!isRegisterFormValid()}>Register</button>
             <p><a href="/login">Already have an account? Sign in!</a></p>
           </form>
         </div>
