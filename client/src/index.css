@@ -85,7 +85,7 @@ input{
 .light-btn {
     background-color: white;
     color: rgb(30, 30, 30);
-  }
+}
   
 .dark-btn {
     background-color: rgb(30, 30, 30);
@@ -106,3 +106,47 @@ input{
     cursor: default;
 }
   
+@media screen and (max-width: 1200px) {
+    .form-area{
+        width: 30vw;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 0 20px;
+        width: 30vw;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form-area{
+        width: 50vw;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 0 20px;
+        width: 50vw;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .form-area{
+        width: 70vw;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 0 20px;
+        width: 70vw;
+        font-size: 18px;
+    }
+}
